@@ -1,0 +1,39 @@
+%\documentclass{iiththesis}
+\documentclass[a4paper,twoside]{iiththesis}
+
+\title{Novel denoising methods for better Text Style Transfer}
+\submitted{\today}
+\author{Sharan Narasimmhan}
+\rollno{IITH roll no}
+\adviser{Adviser}
+\addradviser{Dept. of \department \\ \iithfull}
+\coguide{Co-Adviser}
+\addrcoguide{Dept. of \department \\ \iithfull}
+\chair{Prof. Examiner}
+\addrchair{Dept. of Some Eng \\ IIT}
+\external{Prof. External}
+\addrexternal{Dept. of Some Eng \\ IIT}
+\internal{Prof. Internal}
+\addrinternal{Dept. Some Eng \\ IIT}
+
+
+\usepackage{import}
+
+
+\input{ack}
+\input{dedicate}
+\input{abstract}
+
+\renewcommand{\bibname}{References}
+\begin{document}
+\include{intro-chapter/introduction}
+
+\clearpage
+\newpage
+
+\addcontentsline{toc}{chapter}{References} % Please do not remove this
+\bibliographystyle{iiththesis}
+\bibliography{common/references}
+
+\printindex
+\end{document}
